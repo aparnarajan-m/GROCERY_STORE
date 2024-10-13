@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.veg-container{
+    width: 100%;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-div{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 82, 2);
+}
+.nav-div h1{
+    font-size: 3rem;   
+} 
+.heading {
+    margin-right: auto;
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 30px; 
+    color: whitesmoke;    
+}
+.navbar{
+    background-color: rgb(2, 82, 2);
+    text-align: center;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+.navbar ul li {
+    /* width: 100px; */
+    padding: 10px;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.vegitables, .navbar ul li:hover{
+    border-bottom: 3px solid rgba(225, 255, 255, 0.2);
+    color: rgb(163, 155, 155);
+    height: 25px;
+    background-color: rgba(225, 255, 255, 0.2);
+    border-radius: 10%;
+}
+
+
+/* ---------------------------------------------- */
+
+.veg-contents{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.row1,
+.row2,
+.row3,
+.row4{
+    display: flex;
+}
+.row1 .content{
+    width: 40%;
+    height: 40vh;
+    margin-top: 100px ;
+    text-align: center;
+    background: #fff;
+    outline: 1rem solid #ccc;
+    box-shadow: 0 .5rem rgba(0, 0, 0, .1);    
+}
+.row2 .content,
+.row3 .content,
+.row4 .content{
+    width: 40%;
+    height: 40vh;
+    margin-top: 10px;
+    text-align: center;
+    background: #fff;
+    outline: 1rem solid #ccc;
+    box-shadow: 0 .5rem rgba(0, 0, 0, .1);
+}
+.row1 .img img,
+.row2 .img img,
+.row3 .img img,
+.row4 .img img{
+    width: 80%;
+    height: 30vh;
+    margin-left: -15px;
+    border-radius: 5px;
+}
+.row1 .content h3,
+.row2 .content h3,
+.row3 .content h3,
+.row4 .content h3{
+    margin-left: 10px;
+}
+.row1 .content:hover,
+.row2 .content:hover,
+.row3 .content:hover,
+.row4 .content:hover{
+    transition: all .50s ease;
+    transform: translateY(-5px);
+}
+.row1 .price,
+.row2 .price,
+.row3 .price,
+.row4 .price{
+    margin-left: 10px;
+    font-size: medium;
+}
+

@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.prawns-container{
+    width: 100%;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.prawns-contents{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;  
+}
+h1{
+   color: green; 
+   margin-left: 45%;
+   font-size: 3rem;
+   padding-top: 5px;
+}
+.row1,
+.row2{
+display: flex;
+}
+.row1 .content{
+width: 40%;
+height: 40vh;
+margin-top: 55px ;
+text-align: center;
+background: #fff;
+outline: 1rem solid #ccc;
+box-shadow: 0 .5rem rgba(0, 0, 0, .1);    
+}
+.row2 .content{
+width: 40%;
+height: 40vh;
+margin-top: 10px;
+text-align: center;
+background: #fff;
+outline: 1rem solid #ccc;
+box-shadow: 0 .5rem rgba(0, 0, 0, .1);
+}
+.row1 .img img,
+.row2 .img img{
+width: 60%;
+height: 30vh;
+margin-left: -15px;
+margin-top: 10px;
+border-radius: 5px;
+}
+.row1 .content h3,
+.row2 .content h3{
+margin-left: 10px;
+}
+.row1 .content:hover,
+.row2 .content:hover{
+transition: all .50s ease;
+transform: translateY(-5px);
+}
+.row1 .price,
+.row2 .price{
+margin-left: 10px;
+font-size: medium;
+}

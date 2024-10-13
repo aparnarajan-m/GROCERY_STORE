@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.meat-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(assets/pagemeatpage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-div{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 82, 2);
+}
+.nav-div h1{
+    font-size: 3rem;   
+} 
+.heading {
+    margin-right: auto;
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: 30px; 
+    color: whitesmoke;    
+}
+.navbar{
+    background-color: rgb(2, 82, 2);
+    text-align: center;
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;
+}
+.navbar ul li {
+    /* width: 100px; */
+    padding: 10px;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.meats, .navbar ul li:hover{
+    border-bottom: 3px solid rgba(225, 255, 255, 0.2);
+    color: rgb(163, 155, 155);
+    height: 25px;
+    background-color: rgba(225, 255, 255, 0.2);
+    border-radius: 10%;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb( 0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .sub-menu-1 ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    font-size: 17px;
+}
+.navbar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-greater-than{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 100px;
+    background: rgb( 0, 100, 0);
+
+}
+.content-div{
+    padding: 230px 150px 60px;
+}
+.content-div h4{
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+.content-div h1{
+  font-size: 3rem;
+  line-height: 1.2;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.content-div p{
+    font-size: 1rem;
+   color: whitesmoke; 
+}
+footer{
+    margin-top: 10px;
+    color: whitesmoke;
+}
+h2{
+    margin-top: 10px;
+    border-bottom: 3px solid rgba(225, 255, 255, 0.2);
+}
